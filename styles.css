@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.controls-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.file-input {
+    margin-bottom: 10px;
+}
+
+.filter-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.convert-button,
+.download-button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.convert-button:hover,
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+.download-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.canvas {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: auto;
+}
+
+.canvas-spacing {
+    width: 10px;
+}

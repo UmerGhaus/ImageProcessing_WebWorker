@@ -1,0 +1,42 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Processing Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Image Processing Tool</h1>
+    </header>
+    
+    <main>
+        <div class="controls-container">
+            <input type="file" id="imageInput" class="file-input" />
+            
+            <div class="filter-controls">
+                <label>
+                    <input type="radio" name="filter" value="grayscale" checked> Grayscale
+                </label>
+                <label>
+                    <input type="radio" name="filter" value="invert"> Invert
+                </label>
+                <!-- Add more filters as needed -->
+            </div>
+
+            <button id="convertButton" class="convert-button">Convert</button>
+            <button id="downloadButton" class="download-button" disabled>Download</button>
+        </div>
+
+        <div class="image-container">
+            <canvas id="originalCanvas" class="canvas" height="300"></canvas>
+            <div class="canvas-spacing"></div>
+            <canvas id="modifiedCanvas" class="canvas" height="300"></canvas>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
