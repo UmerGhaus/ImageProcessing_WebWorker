@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an Image Processing Tool that utilizes Web Workers to apply filters and effects to images without blocking the UI. The tool allows users to upload an image, apply various filters, and view both the original and modified images side by side and download the modified image.
+This project is an Image Processing Tool that utilizes Web Workers to apply filters and effects to images without blocking the UI. The tool allows users to upload an image, apply various filters, view both the original and modified images side by side, and download the modified image.
 
 ## Demo
 
@@ -19,7 +19,7 @@ To run the project locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/UmerGhaus/ImageProcessing_WebWorker
+   git clone https://github.com/UmerGhaus/ImageProcessing_WebWorker.git
 
 2. Navigate to the project directory:
 
